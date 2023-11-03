@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+body {
+  padding: 80px 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.container {
+  display: none;
+}
+.contenido {
+  padding-top: 160px;
+}
+.destacadoPar {
+  padding: 15px;
+  text-align: justify;
+  color: white;
+  background-color: rgba(86, 96, 72, 0.7);
+  margin: 10px;
+}
+.destacadoImpar {
+  padding: 15px;
+  text-align: justify;
+  color: white;
+  background-color: rgba(35, 57, 80, 0.7);
+  margin: 10px;
+}
+
+.fondo {
+  background-image: url("/img/vikingsposter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.fondoMoviesList {
+  background-image: url("/img/avengers.jpg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+
+  background-position: right;
+}
+.contenedorImagen{
+ width:100%;
+ position: relative;
+ top :30px;
+box-shadow: 2px 5px 35px black;
+
+}
+.contenedorImg{ position: absolute;
+ top : 0;
+ right:0 ;
+
+ width:50%;
+ height: 110%;
+  text-align: right;
+}
+.fondoCRUD {
+  padding: 30px;
+  background-image: url("/img/peliculas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fondoTransparente {
+  background-color: rgba(189, 199, 191, 0.7);
+  width: 30%;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+figure {
+  width: 20%;
+}
+.titulo {
+  text-align: center;
+}
+#buttonDark{
+  margin-bottom: 1px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 150px;
+  text-transform: uppercase;
+  
+}
+.conteinerAgregar a{
+  border: double 2px #3d348b;
+}
+.conteinerAgregar{
+  margin-top: -50px;
+  padding: 13px;
+}
+.botonAgregar{
+  color: #3d348b ;
+  background-color:#eee2df;
+  padding: 10px;
+  
+}
+.listMovies{
+  margin-left: 15px;
+}
+.botonModificar {
+  color: white;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px; 
+}
+.botonBorrar {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+.botonVolver {
+  color: #3d348b ;
+  background-color:#eee2df;
+  padding:5px 10px;
+  margin-right:35px;
+}
+.formulario {
+  margin: auto;
+  width: 20%;
+}
+
+
+/* Estilos para el menu */
+#menu {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background-color: rgba(208, 180, 237, 0.88);
+  left: -200px;
+
+  transition: all 1.5s;
+}
+
+#menu ul li {
+  color: #fff;
+  list-style: none;
+  text-align: center;
+  padding: 15px 5px;
+  border-bottom: 1px solid rgb(100, 100, 100, .88);
+}
+
+#menu.mostrar {
+  left: 0;  transition: all 10ms;
+}
+
+#logoDH {
+  position: absolute;
+  top: 5px;
+  left: 350px;
+  width: 20%;
+  cursor: pointer;
+
+  filter: drop-shadow(-2px 2px 2px rgb(255, 255, 255));
+}
+
+.toggle img{
+  display: block;
+  width: 40px;
+}
+.cerrar{
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+  
+}
+#closeMenu{
+  margin: 5px;
+  cursor: pointer;
+  width: 35px;
+border: solid 2px black;
+ align-items: center;
+ justify-content: center;
+  background-color: rgba(0, 0, 0, 0.126);
+  padding: 10px;
+  
+}
